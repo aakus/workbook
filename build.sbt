@@ -13,6 +13,11 @@ scalacOptions ++= Seq(
 
 libraryDependencies ++= Seq("org.typelevel" %% "cats-core" % "2.2.0")
 
+libraryDependencies += "org.typelevel" %% "cats-effect" % "3.0.2"
+
+libraryDependencies += "co.fs2" %% "fs2-core" % "3.0.1"
+libraryDependencies += "co.fs2" %% "fs2-io" % "3.0.1"
+
 libraryDependencies ++= Seq(
   "io.circe" %% "circe-core",
   "io.circe" %% "circe-generic",
@@ -42,3 +47,9 @@ libraryDependencies ++= Seq(
 )
 
 libraryDependencies += "nl.vroste" %% "rezilience" % "0.6.1"
+
+// https://alphabet-soup.typechecked.io/docs/
+libraryDependencies += "io.typechecked" %% "alphabet-soup" % "0.3.0"
+
+// https://github.com/TypeChecked/numerology
+libraryDependencies += "io.typechecked" %% "numerology" % "0.1.5"
