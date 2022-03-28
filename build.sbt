@@ -40,12 +40,6 @@ libraryDependencies ++= Seq(
   "org.mockito" %% "mockito-scala-cats" % "1.16.3"
 ).map(_ % Test)
 
-libraryDependencies ++= Seq(
-  "dev.zio" %% "zio" % "1.0.4-2",
-  "dev.zio" %% "zio-streams" % "1.0.4-2",
-  "dev.zio" %% "zio-prelude" % "1.0.0-RC3"
-)
-
 libraryDependencies += "nl.vroste" %% "rezilience" % "0.6.1"
 
 // https://alphabet-soup.typechecked.io/docs/
